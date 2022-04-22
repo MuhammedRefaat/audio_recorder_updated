@@ -5,10 +5,6 @@
         android:label="AudioRecorder"
         android:usesCleartextTraffic="true">
 
-        <meta-data
-            android:name="flutterEmbedding"
-            android:value="2" />
-
         <activity
             android:name="io.flutter.embedding.android.FlutterActivity"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale"
@@ -27,5 +23,9 @@
             </intent-filter>
         </activity>
     </application>
+
+    <meta-data
+        android:name="flutterEmbedding"
+        android:value="2" />
 
 </manifest>
